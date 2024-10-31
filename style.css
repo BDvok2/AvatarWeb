@@ -243,8 +243,3 @@ footer a{
 
 }
 
-.dotted-line {
-    flex-grow: 1;
-    border-bottom: 4px dashed #fff;
-    
-}
