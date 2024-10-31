@@ -143,6 +143,9 @@ h2{
     height: 741px;
     background-size: cover;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -198,8 +201,50 @@ h2{
 
 
 footer{
-    background-image: url(images/Banner.png);
-    height: 223px;
-    background-size: cover;
+  
     background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(90deg, rgba(43,74,97,0.87) 0%, rgba(43,74,97,0.87) 35%, rgba(43,74,97,0.87) 100%), url(images/Banner.png);
+
+
+
+    color: white;
+    font-size: 20px;
+    font-family: "Inter", serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+
+}
+
+
+.logocont{
+    border-right: solid white 2px;
+}
+
+
+footer section :nth-child(1){
+    display: flex;
+    gap: 310px;
+    align-items: center;
+}
+
+footer section :nth-child(2){
+    display: flex;
+    gap: 231px;
+    align-items: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.dotted-line {
+    flex-grow: 1;
+    border-bottom: 4px dashed #fff;
+    
 }
