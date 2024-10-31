@@ -215,26 +215,36 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 160px;
+    
 
 }
 
 
 .logocont{
     border-right: solid white 2px;
+    padding-right: 81px
 }
+
+.emcont{
+    padding-left: 81px
+}
+
+
+
 
 
 footer section :nth-child(1){
     display: flex;
     gap: 310px;
     align-items: center;
+    ;
 }
 
 footer section :nth-child(2){
     display: flex;
     gap: 231px;
     align-items: center;
+    ;
 }
 
 footer a{
