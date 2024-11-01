@@ -38,7 +38,22 @@
                 
             </p>
 
-            <button>Приєднатися до <br>клану</button>
+            <button class="btn-open" data-modal-open
+                >Приєднатися до <br>клану
+            </button>
+            <div class="backdrop is-hidden"  data-modal>
+            <div class="modal">
+            <button style="background-color: transparent; border: none; padding: 0,0; color: #0B0E66;" class="btn" data-modal-close
+            ><img  width="14" height="14" src="images/cross.svg" alt=""></button>
+            <form action="login">
+                <label for="">Ім'я <input type="text" ></label>
+                
+                <label for="">Email<input type="email" ></label>
+                <button type="submit">Приєднатися до <br>клану</button>
+            </form>
+            </div>
+            </div>
+            
         </section>
 
         <h2>
@@ -132,5 +147,6 @@
         </section>
 
     </footer>
+    <script src="modal.js"></script>
 </body>
 </html>

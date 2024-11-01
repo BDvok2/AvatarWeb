@@ -37,7 +37,20 @@ header ul{
     font-weight: 300;
 }
 
-button{
+button {
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    padding: 5px 37px ;
+    font-family: "Headland One", serif;
+    
+    border: solid#26C7EA 2px;
+    background-color: #0B0E66;
+    color: #26C7EA;
+    font-size: 20px;
+    
+}
+
+.submit{
     border-top-left-radius: 35px;
     border-bottom-right-radius: 35px;
     padding: 5px 37px ;
@@ -220,7 +233,7 @@ footer{
 }
 
 
-.logocont{
+.logocont{440
     border-right: solid white 2px;
     padding-right: 81px
 }
@@ -252,4 +265,55 @@ footer a{
     text-decoration: none;
 
 }
+
+
+
+
+
+
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+   }
+   
+   .no-scroll {
+    overflow: hidden;
+   }
+   
+   .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   min-width: 400px;
+   min-height: 300px;
+    padding: 15px;
+    background-image: url(images/loginbackdrop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: translate(-50%, -50%);
+   }
+   .btn{
+    position: relative;
+    left: 290px;
+    bottom: 15px;
+   }
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form label{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    width: 300px;
+}
+
 
