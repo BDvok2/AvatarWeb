@@ -61,6 +61,13 @@ button {
     color: #26C7EA;
     font-size: 20px;
     
+    
+}
+
+
+.logsubmit{
+    margin-top: 20px;
+
 }
 
 
@@ -112,9 +119,19 @@ h2{
     background-position: center;
     padding-left: 204px;
 
-    
 
-    
+}
+.introcontainer{
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;    
+}
+.socials{
+    position: absolute;
+    right: 0;
+    margin-right: 18vw;
+    transform: translateY(-50%);
+    top: 50%;
     
 }
 
@@ -217,7 +234,7 @@ footer{
   
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(90deg, rgba(43,74,97,0.87) 0%, rgba(43,74,97,0.87) 35%, rgba(43,74,97,0.87) 100%), url(images/Banner.png);
+    background: linear-gradient(90deg, rgba(43,74,97,0.87) 0%, rgba(43,74,97,0.87) 35%, rgba(43,74,97,0.87) 100%), url(images/footer.png);
 
 
 
@@ -233,24 +250,22 @@ footer{
 }
 
 
-.logocont{440
-    border-right: solid white 2px;
+.logocont{
+    
     padding-right: 81px
 }
 
-.emcont{
-    padding-left: 81px
+
+.emcont p{
+    text-align: center;
 }
-
-
-
 
 
 footer section :nth-child(1){
     display: flex;
     gap: 310px;
     align-items: center;
-    ;
+    
 }
 
 footer section :nth-child(2){
@@ -317,3 +332,9 @@ form input{
 }
 
 
+.copyright{
+    font-size: 20px;
+    font-family: "Inter", serif;
+    text-align: center;
+
+}

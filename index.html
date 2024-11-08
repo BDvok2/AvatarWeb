@@ -14,42 +14,45 @@
     <header>
         <a class="logo" href="#"></a>
         <ul>
-            <li><p>Головна</p></li>
-            <li><p>Про нас</p></li>
-            <li><p>Контакти</p></li>
+            <li><a>Головна</a></li>
+            <li><a>Про нас</a></li>
+            <li><a>Контакти</a></li>
         </ul>
         <button class="login">Увійти</button>
 
     </header>
 
     <main class="container">
+        <img class="socials" src="images/Socials.svg" alt="">
         <section class="intro">
-            <p>Oe perlltxe hu tsamsiyu!
-                <br>Ngari hu Eywa salew tirea, 
-                <br>tokx 'ì'awn slu Na'viyä hapxì.
-                <br>Säwem nìayoeng!
-            </p>
-            <img src="images/pointer.svg" alt="">
-            <p>Хоробрий воїне, звертаюсь до тебе!
-                Твій дух йде з Ейвою, 
-                <br>твоє тіло залишається, 
-                <br>щоб стати частиною Народу.
-                <br>Борись разом з нами!
-                
-            </p>
-
-            <button class="btn-open" data-modal-open
-                >Приєднатися до <br>клану
-            </button>
+            
+            <div class="introcontainer">
+                <p>Oe perlltxe hu tsamsiyu!
+                    <br>Ngari hu Eywa salew tirea, 
+                    <br>tokx 'ì'awn slu Na'viyä hapxì.
+                    <br>Säwem nìayoeng!
+                </p>
+                <img src="images/pointer.svg" alt="">
+                <p>Хоробрий воїне, звертаюсь до тебе!
+                    Твій дух йде з Ейвою, 
+                    <br>твоє тіло залишається, 
+                    <br>щоб стати частиною Народу.
+                    <br>Борись разом з нами!
+                    
+                </p>
+                <button class="btn-open" data-modal-open
+                    >Приєднатися до <br>клану
+                </button>
+            </div>
+            
             <div class="backdrop is-hidden"  data-modal>
             <div class="modal">
             <button style="background-color: transparent; border: none; padding: 0,0; color: #0B0E66;" class="btn" data-modal-close
             ><img  width="14" height="14" src="images/cross.svg" alt=""></button>
             <form action="login">
                 <label for="">Ім'я <input type="text" ></label>
-                
-                <label for="">Email<input type="email" ></label>
-                <button type="submit">Приєднатися до <br>клану</button>
+                <label for="">Email<input type="" ></label>
+                <button class="logsubmit" type="submit">Приєднатися до <br>клану</button>
             </form>
             </div>
             </div>
@@ -136,15 +139,18 @@
 
             <div>
                 <p>Q&A E-mail</p>
-                
+                <img src="images/line1.svg" alt="">
                 <a href="avatartwowqa@gmail.com">avatartwowqa@gmail.com</a>
             </div>
             <div>
                 <p>Cooperation E-mail</p>
-                
+                <img src="images/line2.svg" alt="">
                 <a href="avatartwowcoop@gmail.com">avatartwowcoop@gmail.com</a>
             </div>
+            <p class="copyright">©2023 Avatar: The Way Of Water. All rights reserved</p>
+            
         </section>
+        
 
     </footer>
     <script src="modal.js"></script>
